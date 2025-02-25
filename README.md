@@ -75,4 +75,4 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 * Expand **Sites** > **Default Web Site** > **osTicket**
 * Click **Browse** under **Manage Folder**
 
-If everything was followed correctly, you should be ready to move on to the next phase: **<a href="https://github.com/JBeezy888/post-install-config">osTicket: Post-Installation Configuration**
+If everything was followed correctly, you should be ready to move on to the next phase: **<a href="https://github.com/JBeezy888/osTicket-Post-Installation-Configuration">osTicket: Post-Installation Configuration**
