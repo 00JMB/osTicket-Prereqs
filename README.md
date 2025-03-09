@@ -106,4 +106,4 @@ Head back to the osTicket site and click “Continue”.
 
 ---
 
-### Congrats, you're ready to move on to the next phase: **<a href="https://github.com/JBeezy888/osTicket-Post-Installation-Configuration">osTicket: Post-Installation Configuration**
+### Congrats, you're ready to move on to the next phase: **<a href="https://github.com/00JMB/osTicket-Post-Installation-Configuration">osTicket: Post-Installation Configuration**
