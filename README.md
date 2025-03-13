@@ -30,26 +30,56 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ### 1. Download Required Files
 * Run your Virtual Machine or Desktop and head to the attached link to install all necessary files and software dependencies for osTicket: [Download Installation Files](https://drive.google.com/file/d/1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD/view?usp=drivesdk)
 * Open File Explorer and navigate to the **Downloads** folder
-* Drag the newly downloaded folder onto the desktop
-* Right-click the folder > **Extract All** > Ensure extraction to the desktop
+* **Right-click** the newly downloaded folder > **Extract All**
+  ![image](https://github.com/user-attachments/assets/67b397bc-ade0-44b2-98ee-1d398f626888)
+
+* Ensure extraction to the **desktop**
+![image](https://github.com/user-attachments/assets/85352255-0e1b-4e0a-b076-c568b56f8067)
 
 ### 2. Enable IIS Features
-* Open **Control Panel** > **Programs** > **Programs and Features** > **Turn Windows features on or off**
+* Open **Control Panel** > **Programs**
+  ![image](https://github.com/user-attachments/assets/86da782b-8ebe-4980-af16-4ed7ffc03e2b)
+
+* **Programs and Features** > **Turn Windows features on or off**
+  ![image](https://github.com/user-attachments/assets/ca6e101e-d254-4bfe-89d0-4853afbe67b5)
+
 * Check the **Internet Information Services** box
 * Expand **World Wide Web Services** > **Application Development Features** > Check the **CGI** box
+  ![image](https://github.com/user-attachments/assets/2ffd60f8-4138-452d-b42d-62544da22fa0)
+
 
 ### 3. Install PHP and IIS Modules
+**In the extracted osTicket Installation Folder**
 * Install **PHPManager for IIS** (Run `PHPManagerForIIS_V1.5.0.msi`)
+  ![image](https://github.com/user-attachments/assets/314f4808-a734-4976-8c18-276e9cb64d98)
+  ![image](https://github.com/user-attachments/assets/b45dfe93-f112-4259-aa6c-b83bf2b1125f)
+
 * Install the **URL Rewrite Module** for IIS
+  ![image](https://github.com/user-attachments/assets/dbf2c6ec-d970-4e68-9f38-33881b0bc2f5)
+  ![image](https://github.com/user-attachments/assets/3c8075ae-0a43-402a-88ef-db9bd51954c5)
+
 * Create a new directory in the **C:** drive named **PHP**
+  ![image](https://github.com/user-attachments/assets/78cccd75-1194-421b-aac4-c2ce496108c3)
+
 * Extract **php-7.3.8-nts-Win32-VC15-x86** into the **PHP** directory
+  ![image](https://github.com/user-attachments/assets/c367078d-1f13-46eb-9254-6c7669eac653)
+  ![image](https://github.com/user-attachments/assets/bdcd71fc-5019-4bdd-9988-5273ef52100c)
+
 * Run the **VC_redist.x86** installer
+![image](https://github.com/user-attachments/assets/981e6d60-b23d-4528-9b7f-5dfe30828bb5)
 
 ### 4. Install MySQL
 * Run the **MySQL Installer** (`mysql-5.5.62-win32`) > **Typical** > **Install**
 * Launch the **MySQL Configuration Wizard**
-* Choose and confirm a **root password** (keep track of this!)
+  ![image](https://github.com/user-attachments/assets/ffd4a44e-ca93-4891-a931-51b9b546f677)
+
+* **Standard Configuration** > **Next**
+* Next we have to **set a root password**, for the purposes of this project, set it as **root**
+  ![image](https://github.com/user-attachments/assets/e14e82db-c05e-4c43-bac0-0813c7eedc01)
+
 * Click **Execute** > **Finish**
+  ![image](https://github.com/user-attachments/assets/359632d3-679f-412b-9843-0468c850ae50)
+
 
 ### 5. Register PHP with IIS
 * **Start** > Search **IIS** > Run **Internet Information Services Manager** as administrator
