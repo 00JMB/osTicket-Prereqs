@@ -34,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   ![image](https://github.com/user-attachments/assets/67b397bc-ade0-44b2-98ee-1d398f626888)
 
 * Ensure extraction to the **desktop**
-![image](https://github.com/user-attachments/assets/85352255-0e1b-4e0a-b076-c568b56f8067)
+  ![image](https://github.com/user-attachments/assets/85352255-0e1b-4e0a-b076-c568b56f8067)
 
 ### 2. Enable IIS Features
 * Open **Control Panel** > **Programs**
@@ -44,8 +44,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   ![image](https://github.com/user-attachments/assets/ca6e101e-d254-4bfe-89d0-4853afbe67b5)
 
 * Check the **Internet Information Services** box
-* Expand **World Wide Web Services** > **Application Development Features** > Check the **CGI** box
-  ![image](https://github.com/user-attachments/assets/2ffd60f8-4138-452d-b42d-62544da22fa0)
+* Check **Web Management Tools**, Check & Expand **World Wide Web Services** > **Application Development Features** > Check the **CGI** box
+  ![image](https://github.com/user-attachments/assets/58505e11-7daf-44d8-b8ae-fe4d26071caf)
+
+* The computer will recommened you **restart** so the changes take effect, let it
+  ![image](https://github.com/user-attachments/assets/642b4de0-b9e6-4f53-9fb4-83e266d61094)
+
 
 
 ### 3. Install PHP and IIS Modules
@@ -58,7 +62,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   ![image](https://github.com/user-attachments/assets/dbf2c6ec-d970-4e68-9f38-33881b0bc2f5)
   ![image](https://github.com/user-attachments/assets/3c8075ae-0a43-402a-88ef-db9bd51954c5)
 
-* Create a new directory in the **C:** drive named **PHP**
+* Create a new directory in the **(C:)** drive named **PHP**
   ![image](https://github.com/user-attachments/assets/78cccd75-1194-421b-aac4-c2ce496108c3)
 
 * Extract **php-7.3.8-nts-Win32-VC15-x86** into the **PHP** directory
@@ -66,12 +70,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   ![image](https://github.com/user-attachments/assets/bdcd71fc-5019-4bdd-9988-5273ef52100c)
 
 * Run the **VC_redist.x86** installer
-![image](https://github.com/user-attachments/assets/981e6d60-b23d-4528-9b7f-5dfe30828bb5)
+  ![image](https://github.com/user-attachments/assets/981e6d60-b23d-4528-9b7f-5dfe30828bb5)
 
 ### 4. Install MySQL
 * Run the **MySQL Installer** (`mysql-5.5.62-win32`) > **Typical** > **Install**
 * Launch the **MySQL Configuration Wizard**
-  ![image](https://github.com/user-attachments/assets/ffd4a44e-ca93-4891-a931-51b9b546f677)
+   ![image](https://github.com/user-attachments/assets/ffd4a44e-ca93-4891-a931-51b9b546f677)
 
 * **Standard Configuration** > **Next**
 * Next we have to **set a root password**, for the purposes of this project, set it as **root**
@@ -83,15 +87,45 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ### 5. Register PHP with IIS
 * **Start** > Search **IIS** > Run **Internet Information Services Manager** as administrator
-* **PHP Manager** > **Register a new PHP version** > Browse to `C:\PHP` > Select **php-cgi** > Click **Open** > **Ok**
+  ![image](https://github.com/user-attachments/assets/b1359c0f-6061-486f-a9fc-db8440c32016)
+
+* Double-click **PHP Manager**
+  ![image](https://github.com/user-attachments/assets/46202635-6c7d-4281-a01f-b2d3530655b4)
+  
+* **Register a new PHP version**
+  ![image](https://github.com/user-attachments/assets/83771986-dec8-4064-b7b2-41a70bb7a37f)
+
+* **Browse to `C:\PHP`**
+  ![image](https://github.com/user-attachments/assets/4dbb5755-5f44-4a97-8bf3-0a6aa45e3eec)
+
+* Select **php-cgi**
+  ![image](https://github.com/user-attachments/assets/1f53e182-9387-4707-9615-0c56539530d9)
+
+* Click **Open** > **Ok**
+  ![image](https://github.com/user-attachments/assets/38db1c03-20f9-45e9-a312-7a5ab9260e6a)
+
 
 ### 6. Install osTicket
 * Extract the **osTicket-v1.15.8** file
-* Open the **Upload** folder
-* Navigate to `C:\inetpub\wwwroot`
-* Copy the **upload** folder into **wwwroot**
+  ![image](https://github.com/user-attachments/assets/bca13bd5-0094-48a7-8ccd-caf4a886ec14)
+
+* Open extracted folder > **copy** the **Upload** folder
+  ![image](https://github.com/user-attachments/assets/221f013a-2197-4c73-9c97-f89bd4148cd5)
+
+* Navigate to `C:\inetpub\wwwroot` in File Explorer
+* **Paste** the **upload** folder into **wwwroot**
+  ![image](https://github.com/user-attachments/assets/1b4363ec-8c45-4515-ab07-19ee1b3e2098)
+
 * Rename **upload** folder to **osTicket**
-* Restart the server
+  ![image](https://github.com/user-attachments/assets/be99e50b-f7de-43f9-8e63-939027dbeece)
+
+* Then just **delete the original upload folder**
+   ![image](https://github.com/user-attachments/assets/247d4fdb-981e-46dc-912a-9a9862b70a39)
+
+
+* **Back in PHP Manager:** Restart the server
+  ![image](https://github.com/user-attachments/assets/15288b69-90cd-4699-a0f8-ac398b50c4a4)
+
 
 ---
 
