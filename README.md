@@ -61,10 +61,11 @@ This guide provides a step-by-step walkthrough for setting up osTicket, an open-
 * Under **World Wide Web Services**, expand **Application Development Features** and enable **CGI**.
   ![image](https://github.com/user-attachments/assets/58505e11-7daf-44d8-b8ae-fe4d26071caf)
 
+
 ---
 
 ### 3️⃣ Install PHP and IIS Modules
-* Inside the extracted osTicket Installation folder:
+* Inside the extracted osTicket Installation folder on the desktop:
   * Run `PHPManagerForIIS_V1.5.0.msi` to install **PHP Manager for IIS**.
     ![image](https://github.com/user-attachments/assets/314f4808-a734-4976-8c18-276e9cb64d98)
     ![image](https://github.com/user-attachments/assets/b45dfe93-f112-4259-aa6c-b83bf2b1125f)
@@ -73,13 +74,15 @@ This guide provides a step-by-step walkthrough for setting up osTicket, an open-
     ![image](https://github.com/user-attachments/assets/dbf2c6ec-d970-4e68-9f38-33881b0bc2f5)
     ![image](https://github.com/user-attachments/assets/3c8075ae-0a43-402a-88ef-db9bd51954c5)
     
-* Create a new directory in `C:` named **PHP** and extract `php-7.3.8-nts-Win32-VC15-x86` into this directory.
-  ![image](https://github.com/user-attachments/assets/78cccd75-1194-421b-aac4-c2ce496108c3)
-  ![image](https://github.com/user-attachments/assets/c367078d-1f13-46eb-9254-6c7669eac653)
-  ![image](https://github.com/user-attachments/assets/bdcd71fc-5019-4bdd-9988-5273ef52100c)
-  
+* Create a new directory in `C:` named **PHP** then, move `php-7.3.8-nts-Win32-VC15-x86` into this directory.
+  ![image](https://github.com/user-attachments/assets/f7b569dd-dd26-466d-bd9e-67cd8c8bcf3f)
+
+* Now, Extract the folder into this directory.
+  ![image](https://github.com/user-attachments/assets/6594533a-db72-445e-8976-59fd61b22c9b)
+
 * Run the **VC_redist.x86** installer to ensure necessary runtime components are installed.
   ![image](https://github.com/user-attachments/assets/981e6d60-b23d-4528-9b7f-5dfe30828bb5)
+
 
 ---
 
@@ -94,6 +97,7 @@ This guide provides a step-by-step walkthrough for setting up osTicket, an open-
   
 * Click **Execute**, then **Finish**.
   ![image](https://github.com/user-attachments/assets/359632d3-679f-412b-9843-0468c850ae50)
+
 
 ---
 
@@ -111,6 +115,7 @@ This guide provides a step-by-step walkthrough for setting up osTicket, an open-
   ![image](https://github.com/user-attachments/assets/4dbb5755-5f44-4a97-8bf3-0a6aa45e3eec)
   ![image](https://github.com/user-attachments/assets/1f53e182-9387-4707-9615-0c56539530d9)
 
+
 ---
 
 ### 6️⃣ Install osTicket
@@ -124,12 +129,14 @@ This guide provides a step-by-step walkthrough for setting up osTicket, an open-
 * Restart IIS from **PHP Manager**.
   ![image](https://github.com/user-attachments/assets/15288b69-90cd-4699-a0f8-ac398b50c4a4)
 
+
 ---
 
 ### 7️⃣ Test Run
 * In IIS Manager, expand **Sites** > **Default Web Site** > **osTicket**.
 * Click **Browse** under **Manage Folder**.
 * If everything is set up correctly, the osTicket installation page should load.
+
 
 ---
 
@@ -145,6 +152,7 @@ This guide provides a step-by-step walkthrough for setting up osTicket, an open-
   - Click **Disable Inheritance** > **Remove all inherited permissions**.
   - Add a new permission: **Select a principal** > Enter `everyone` > **Full Control** > Apply changes.
 * Refresh the osTicket installation page and proceed.
+
 
 ---
 
