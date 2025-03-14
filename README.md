@@ -93,7 +93,8 @@ This guide provides a step-by-step walkthrough for setting up osTicket, an open-
   
 * Choose **Standard Configuration** > **Next**.
 * Set the root password to **root** for this setup.
-  ![image](https://github.com/user-attachments/assets/e14e82db-c05e-4c43-bac0-0813c7eedc01)
+  ![image](https://github.com/user-attachments/assets/e0b1d64c-fec4-42a2-a919-fbd7638802f8)
+
   
 * Click **Execute**, then **Finish**.
   ![image](https://github.com/user-attachments/assets/359632d3-679f-412b-9843-0468c850ae50)
