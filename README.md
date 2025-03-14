@@ -123,8 +123,8 @@ This guide provides a step-by-step walkthrough for setting up osTicket, an open-
 * Extract **osTicket-v1.15.8**.
   ![image](https://github.com/user-attachments/assets/bca13bd5-0094-48a7-8ccd-caf4a886ec14)
   
-* Copy the **Upload** folder to `C:\inetpub\wwwroot` and rename it to **osTicket**.
-  ![image](https://github.com/user-attachments/assets/221f013a-2197-4c73-9c97-f89bd4148cd5)
+* Move the **Upload** folder to `C:\inetpub\wwwroot` and rename it to **osTicket**.
+  ![image](https://github.com/user-attachments/assets/51c19f6e-ed48-41de-be36-70d13004c170)
   ![image](https://github.com/user-attachments/assets/be99e50b-f7de-43f9-8e63-939027dbeece)
   
 * Restart IIS from **PHP Manager**.
@@ -136,7 +136,10 @@ This guide provides a step-by-step walkthrough for setting up osTicket, an open-
 ### 7️⃣ Test Run
 * In IIS Manager, expand **Sites** > **Default Web Site** > **osTicket**.
 * Click **Browse** under **Manage Folder**.
+  ![image](https://github.com/user-attachments/assets/00ca69b1-55d5-4b86-ac48-63b3a2ef336b)
+
 * If everything is set up correctly, the osTicket installation page should load.
+  
 
 
 ---
