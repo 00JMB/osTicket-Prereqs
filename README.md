@@ -77,7 +77,7 @@ This guide provides a step-by-step walkthrough for setting up osTicket, an open-
 * Create a new directory in `C:` named **PHP** then, move `php-7.3.8-nts-Win32-VC15-x86` into this directory.
   ![image](https://github.com/user-attachments/assets/f7b569dd-dd26-466d-bd9e-67cd8c8bcf3f)
 
-  * Now, Extract the folder into this directory.
+  * Now, Extract the folder into this directory. After the extraction, you can delete the zip
   ![image](https://github.com/user-attachments/assets/6594533a-db72-445e-8976-59fd61b22c9b)
 
 * **Back in the desktop folder:** Run the **VC_redist.x86** installer to ensure necessary runtime components are installed.
