@@ -216,4 +216,4 @@ This guide provides a step-by-step walkthrough for setting up osTicket, an open-
 
 ### 🎉 Congratulations!
 You’ve successfully installed osTicket.
-Next steps: [osTicket Post-Installation Configuration](https://github.com/00JMB/osTicket-Post-Installation-Configuration)
+When you're ready to move on to the next phase, Follow this link: **<a href="https://github.com/00JMB/osTicket-Post-Installation-Configuration">osTicket: Post-Installation Configuration**
