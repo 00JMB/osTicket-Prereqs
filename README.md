@@ -183,18 +183,34 @@ This guide provides a step-by-step walkthrough for setting up osTicket, an open-
 ---
 
 ### 9️⃣ Database Setup
-* Install **HeidiSQL** and open the application.
-* Create a new connection using `root` as the username and password.
-* Right-click in the left panel and select **Create New > Database**.
+* **Back in the osTicket Installation Files Folder:** Install **HeidiSQL**, *Leave all settings as-is*
+* Launch HeidiSQL after installation > skip the update
+* **Create a new connection using `root` as the username and password**. > **Click Open**
+      ![image](https://github.com/user-attachments/assets/d14b63d9-9615-4018-9fa3-9b9766aca126)
+      ![image](https://github.com/user-attachments/assets/7019750a-01a9-45a3-a281-474e6cc5a770)
+
+* Right-click *Unnamed* in the left panel, and select **Create New > Database**.
+      ![image](https://github.com/user-attachments/assets/f42f9f1a-2f5b-4dec-9201-72dc96f9782c)
+
 * Name the database **osTicket**.
+      ![image](https://github.com/user-attachments/assets/83d3b893-33e7-4d79-9b3d-73f6cb00bfe9)
+      ![image](https://github.com/user-attachments/assets/32743221-fce9-41e1-827e-1917632ffb61)
+
 
 #### Complete the osTicket Installation:
-* Return to the osTicket web page.
-* Enter the database details:
+* Return to the osTicket web page. > click *Continue*
+* Fill out the log in info that your going to use
+      ![image](https://github.com/user-attachments/assets/e5f79a66-21cb-4ae4-933e-00eeace11f28)
+
+* Enter the SQL database details at the bottom of the page:
   - Database Name: `osTicket`
   - Username: `root`
   - Password: `root`
+        ![image](https://github.com/user-attachments/assets/afe21d6a-7bfe-4f9d-a92d-83c5aaa89faf)
+
 * Click **Install Now**.
+    ![image](https://github.com/user-attachments/assets/132de29b-5a9c-4f23-bf0d-7a0b4ade87c0)
+
 
 ---
 
